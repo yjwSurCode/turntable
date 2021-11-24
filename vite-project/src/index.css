@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.turnTable {
+  width: 400px;
+  height: 400px;
+
+  transform-origin: center;
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  top: 180px;
+}
+.pointer {
+  position: fixed;
+  top: 262px;
+  left: 230px;
+}
